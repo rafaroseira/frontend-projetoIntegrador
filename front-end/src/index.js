@@ -23,6 +23,14 @@ const router = createBrowserRouter([
     path:"cliente",
     element: <Cliente />,
   },
+  {
+    path:"servico",
+    element: <Cliente />,
+  },
+  {
+    path:"profissional",
+    element: <Cliente />,
+  },
 ]);
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
