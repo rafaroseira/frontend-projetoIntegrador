@@ -9,6 +9,7 @@ import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 import Home from "./routes/Home";
 import Petshop from "./routes/Petshop";
 import Cliente from "./routes/Cliente";
+import Servico_Profissional from "./routes/Servico_Profissional";
 
 const router = createBrowserRouter([
   {
@@ -24,12 +25,8 @@ const router = createBrowserRouter([
     element: <Cliente />,
   },
   {
-    path:"servico",
-    element: <Cliente />,
-  },
-  {
-    path:"profissional",
-    element: <Cliente />,
+    path:"gerencia-sp",
+    element: <Servico_Profissional />,
   },
 ]);
 
